@@ -162,7 +162,7 @@ def sweep_all(p: Params):
     base_vrfy = spx_verification_calls(p.n, p.w, p.h, p.d, p.t, p.k)
     base_size = spx_signature_size(p.n, p.w, p.h, p.d, p.t, p.k)
 
-    table = interleave_cost_table(n=p.k * p.t, k=p.k)  # list[(m_max, log2 E[work])]
+    table = interleave_cost_table(t=p.k * p.t, k=p.k)  # list[(m_max, log2 E[work])]
     rows = []
     for m_max, lg in table:
         add_work = (2.0 ** lg) - 1.0
@@ -192,7 +192,7 @@ def choose_by_signing_cap(p: Params, signing_increase_pct: float):
     base_vrfy = spx_verification_calls(p.n, p.w, p.h, p.d, p.t, p.k)
     base_size = spx_signature_size(p.n, p.w, p.h, p.d, p.t, p.k)
 
-    table = sorted(interleave_cost_table(n=p.k * p.t, k=p.k), key=lambda x: x[0])
+    table = sorted(interleave_cost_table(t=p.k * p.t, k=p.k), key=lambda x: x[0])
 
     chosen = None
     for m_max, lg in table:  
@@ -245,7 +245,7 @@ def choose_by_size_target(p: Params, size_decrease_pct: float):
     base_size = spx_signature_size(p.n, p.w, p.h, p.d, p.t, p.k)
     target = base_size * (1.0 - size_decrease_pct / 100.0)
 
-    table = interleave_cost_table(n=p.k * p.t, k=p.k)
+    table = interleave_cost_table(t=p.k * p.t, k=p.k)
 
     feasible = []
     for m_max, lg in table:
