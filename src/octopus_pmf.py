@@ -1,5 +1,6 @@
-import math
 from __future__ import annotations
+
+import math
 from collections import defaultdict
 from functools import lru_cache
 from typing import Dict, Tuple, List
