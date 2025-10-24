@@ -24,11 +24,11 @@ def main():
     sp2 = sub.add_parser("sweep", help="list metrics for all m_max")
     add_common(sp2)
 
-    sp3 = sub.add_parser("choose-sign", help="pick m_max by signing increase cap (%)")
+    sp3 = sub.add_parser("choose-sign", help="pick m_max by signing increase cap (%%)")
     add_common(sp3)
     sp3.add_argument("--cap", type=float, required=True)
 
-    sp4 = sub.add_parser("choose-size", help="pick m_max by size decrease target (%)")
+    sp4 = sub.add_parser("choose-size", help="pick m_max by size decrease target (%%)")
     add_common(sp4)
     sp4.add_argument("--target", type=float, required=True)
 
