@@ -13,3 +13,4 @@ git clone https://github.com/***/PORS-FP.git
 cd PORS-FP
 pip install -e .
 ```
+After installation, the command-line tool spx-fp becomes available.
