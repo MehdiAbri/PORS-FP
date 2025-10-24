@@ -16,3 +16,4 @@ pip install -e .
 After installation, the command-line tool spx-fp becomes available.
 
 ## Usage Options
+1️⃣ report
