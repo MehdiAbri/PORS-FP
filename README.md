@@ -7,3 +7,9 @@
 ```bash
 pip install git+https://github.com/***/PORS-FP.git
 ```
+### Or install locally
+```bash
+git clone https://github.com/MehdiAbri/PORS-FP.git
+cd PORS-FP
+pip install -e .
+```
