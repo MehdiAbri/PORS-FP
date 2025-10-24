@@ -2,12 +2,12 @@
 
 ## Installation
 
-###  Install directly from GitHub
+###  Option 1 — Directly from GitHub 
 
 ```bash
 pip install git+https://github.com/***/PORS-FP.git
 ```
-### Or install locally
+### Option 2 — From local source
 ```bash
 git clone https://github.com/***/PORS-FP.git
 cd PORS-FP
