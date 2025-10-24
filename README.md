@@ -14,3 +14,5 @@ cd PORS-FP
 pip install -e .
 ```
 After installation, the command-line tool spx-fp becomes available.
+
+## Usage Options
