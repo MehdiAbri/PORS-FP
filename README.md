@@ -42,3 +42,6 @@ spx-fp report --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --m-max 118
   "spx_fp_security_bits": 131.3980649189629
 }
 ```
+
+### 2) sweep
+Evaluate metrics for all possible `m_max` values to analyze trade-offs between cost and size.
