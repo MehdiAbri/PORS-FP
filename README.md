@@ -60,5 +60,5 @@ Find the largest `m_max` that keeps the signing time increase ≤ a given percen
 
 **Example:**
 ```bash
-spx-fp choose-sign --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --cap 2.6
+spx-fp choose-sign --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --cap 2.5
 ```
