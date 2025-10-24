@@ -71,13 +71,13 @@ Find the largest `m_max` that achieves a target signature size reduction (in %).
 spx-fp choose-size --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --target 13.6
 ```
 
-### 🧮 Python API
+### 🧪 Python API
 You can also use the same functions in Python:
 ```python
 from src import Params, spx_fp_report, sweep_all, choose_by_signing_cap
 
-p = Params(16, 16, 22, 4, 2**19, 13, 2**10)
-print(spx_fp_report(p, m_max=200))
+p = Params(16, 16, 12, 2, 2**9, 17, 2**10)
+print(spx_fp_report(p, m_max=118))
 
 ```
 
