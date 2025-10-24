@@ -114,7 +114,7 @@ def spx_fp_security_bits(q, h, t, k):
 # -------------- bridge: m_max -> add_work --------------
 
 def _log2_ework_from_mmax(t: int, k: int, m_max: int) -> float:
-    table = dict(interleave_cost_table(n=k * t, k=k))
+    table = dict(interleave_cost_table(t=k * t, k=k))
     if m_max in table:
         return table[m_max]
     lowers = [m for m in table if m <= m_max]
