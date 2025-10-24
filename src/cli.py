@@ -15,12 +15,12 @@ def main():
         sp.add_argument("--q", type=int, required=True)
         sp.add_argument("-o", "--output", help="Write JSON result to file")
 
-    # report (ONE m_max)
+    
     sp1 = sub.add_parser("report", help="compute metrics for a specific m_max")
     add_common(sp1)
     sp1.add_argument("--m-max", type=int, required=True)
 
-    # existing
+    
     sp2 = sub.add_parser("sweep", help="list metrics for all m_max")
     add_common(sp2)
 
