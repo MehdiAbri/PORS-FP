@@ -20,4 +20,4 @@ After installation, the command-line tool spx-fp becomes available.
 
 
 ## Usage Options
-###1-report
+### 1-report
