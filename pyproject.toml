@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "spx-fp"
 version = "0.1.0"
-description = "Performance and size evaluation tool for FORS+FP schemes in the SPHINCS+ framework"
+description = "Performance and size evaluation tool for PORS+FP schemes in the SPHINCS+ framework"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 
