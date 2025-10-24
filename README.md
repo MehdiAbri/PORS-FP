@@ -68,6 +68,6 @@ Find the largest `m_max` that achieves a target signature size reduction (in %).
 
 **Example:**
 ```bash
-spx-fp choose-size --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --target 13.74
+spx-fp choose-size --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --target 13.6
 ```
 
