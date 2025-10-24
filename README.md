@@ -7,11 +7,11 @@
 ###  Option 1 — Directly from GitHub 
 
 ```bash
-pip install git+https://github.com/***/PORS-FP.git
+pip install git+https://github.com/MehdiAbri/PORS-FP.git
 ```
 ### Option 2 — From local source
 ```bash
-git clone https://github.com/***/PORS-FP.git
+git clone https://github.com/MehdiAbri/PORS-FP.git
 cd PORS-FP
 pip install -e .
 ```
