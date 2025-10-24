@@ -23,7 +23,5 @@ After installation, the command-line tool spx-fp becomes available.
 ### report
 Compute all metrics (signing, verification, signature size, security) for a specific `m_max` value.
 ```bash
-spx-fp report \
-  --n 16 --w 16 --h 22 --d 4 --t 524288 --k 13 --q 1024 \
-  --m-max 200
+spx-fp report --n 16 --w 16 --h 22 --d 4 --t 524288 --k 13 --q 1024 --m-max 200
 ```
