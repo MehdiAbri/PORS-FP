@@ -14,4 +14,3 @@ spx-fp = "src.cli:main"
 
 [tool.setuptools]
 packages = ["src"]
-package-dir = {"" = "src"}
