@@ -20,7 +20,7 @@ After installation, the command-line tool spx-fp becomes available.
 
 
 ## Usage Options
-### report
+### 1) report
 Compute all metrics (signing, verification, signature size, security) for a specific `m_max` value.
 
 **Example:**
