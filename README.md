@@ -1,2 +1,5 @@
 # PORS+FP
-## Sample Section
+## Installation
+```bash
+pip install git+https://github.com/MehdiAbri/PORS-FP.git
+```
