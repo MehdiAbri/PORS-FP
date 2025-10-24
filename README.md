@@ -30,6 +30,15 @@ spx-fp report --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --m-max 118
 **Output:**
 ```yaml
 {
-   "this-json": "looks awesome..."
+  "m_max": 118,
+  "log2_Ework": 10.620663707309621,
+  "expected_trials": 1574.4843556188698,
+  "spx_fp_signing_calls": 99621.48435561887,
+  "signing_delta_pct": 1.6213933772838172,
+  "spx_fp_verification_calls": 728.0,
+  "verification_delta_pct": -2.4128686327077746,
+  "spx_fp_signature_size_bytes": 3492,
+  "signature_size_delta_pct": -13.735177865612648,
+  "spx_fp_security_bits": 131.3980649189629
 }
-
+```
