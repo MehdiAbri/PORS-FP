@@ -53,3 +53,12 @@ Save results to a JSON file:
 ```bash
 spx-fp sweep --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 -o sweep.json
 ```
+
+
+### 3️⃣ choose-sign
+Find the largest `m_max` that keeps the signing time increase ≤ a given percentage.
+
+**Example:**
+```bash
+spx-fp choose-sign --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --cap 2.6
+```
