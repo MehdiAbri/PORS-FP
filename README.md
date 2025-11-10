@@ -73,6 +73,7 @@ spx-fp choose-size --n 16 --w 16 --h 12 --d 2 --t 512 --k 17 --q 1024 --target 1
 
 ### 🧪 Python API
 You can also use the same functions in Python:
+
 **Example:**
 ```python
 from src import Params, spx_fp_report, sweep_all, choose_by_signing_cap, choose_by_size_target
